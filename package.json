@@ -1,0 +1,19 @@
+{
+  "name": "Tailwind-starter",
+  "version": "1.0.1",
+  "description": "Tailwind starter",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^2.2.17"
+  },
+  "scripts": {
+    "dev-watch": "npx tailwindcss -i ./src/assets/style.css -o ./src/assets/compiled.css --minify --watch"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC"
+}
