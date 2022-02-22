@@ -1,17 +1,19 @@
 {
-  "name": "Tailwind-starter",
+  "name": "VARVA-website",
   "version": "1.0.1",
   "description": "Tailwind starter",
   "main": "index.js",
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.2.1"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "tailwindcss": "^2.2.17"
+    "tailwindcss": "^3.0.1"
   },
   "scripts": {
-    "dev-watch": "npx tailwindcss -i ./src/assets/style.css -o ./src/assets/compiled.css --minify --watch"
+    "dev-watch": "npx tailwindcss -i ./src/assets/style.css -o ./src/assets/compiled.css --minify --watch",
+    "browser-sync": "browser-sync start --proxy 'varva-website' --files ['src/assets/*.css', 'src/*.php'] --no-notify"
   },
   "repository": {},
   "author": "",

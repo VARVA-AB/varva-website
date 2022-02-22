@@ -1,3 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Spectral:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+
+    [x-cloak] { display: none !important; }
+
+
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+    .font-opensans {
+        font-family: 'Open Sans', sans-serif;
+    }
+    .font-spectral {
+        font-family: 'Spectral', serif;
+    }
+
+    body {
+        @apply font-opensans text-blue;
+
+        letter-spacing: -0.03em;
+    }
+
+    main {
+        /* @apply pt-44; */
+    }
+
+    h1 {
+        @apply font-spectral;
+    }
+
+    h1.heading-xl {
+
+        @apply font-light text-[56px] leading-[68px] md:text-[84px] md:leading-[104px] lg:text-[104px] lg:leading-[123.68px] xl:text-[144px] xl:leading-[163.68px] 2xl:text-[164px] 2xl:leading-[183.68px]
+    }
+
+    h2.heading-lg {
+        @apply text-[48px] leading-[56px] lg:text-[96px] lg:leading-[115px];
+    }
+
+    h4 {
+        @apply text-xl md:text-2xl;
+    }
+}
+
+@layer components {
+
+    .button-rounded--blue  {
+        @apply flex justify-between gap-5 md:gap-10 items-center bg-blue rounded-full max-w-xs uppercase text-white text-lg md:text-xl px-8 py-5 md:px-12 md:py-7;
+
+        @apply transition ease-in-out duration-100 hover:bg-white border-2 border-blue hover:text-blue;
+    }
+
+}
+
+@layer utilities {
+    .absolute-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .absolute-center-x {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .absolute-center-y {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.shopify-buy__option-select__label {
+    height: auto!important;
+    /* overflow: hidden; */
+    /* padding: 0; */
+    position: relative!important;
+    width: auto!important;
+}
+
+.shopify-buy-frame--product.shopify-buy__layout-horizontal iframe {
+    margin-left: 0!important;
+}
+
+
+/* TODO Add development class to body, dependent on config('app.env') == local
+    and change  body::after to body.development::after*/
+
+
+
+
+a[href=""], a[href="#"] {
+    color: red;
+}
+
+body::after {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background-color: #2cb6d4;
+    color: white;
+    padding: 5px;
+    content: 'xs';
+    z-index:99999999;
+}
+
+
+@media (min-width: 480px) {
+    body:after {
+        content: 'sm'
+    }
+}
+
+
+@media (min-width: 768px) {
+    body:after {
+        content: 'md'
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body:after {
+        content: 'lg'
+    }
+}
+
+
+@media (min-width: 1280px) {
+    body:after {
+        content: 'xl'
+    }
+}
+
+
+@media (min-width: 1836px) {
+    body:after {
+        content: '2xl'
+    }
+}
+
+@media (min-width: 2400px) {
+    body:after {
+        content: '3xl'
+    }
+}
