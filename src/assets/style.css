@@ -36,7 +36,7 @@
 
     h1.heading-xl {
 
-        @apply font-light text-[56px] leading-[68px] md:text-[84px] md:leading-[104px] lg:text-[104px] lg:leading-[123.68px] xl:text-[144px] xl:leading-[163.68px] 2xl:text-[164px] 2xl:leading-[183.68px]
+        @apply font-light text-[56px] leading-[68px] md:text-[74px] md:leading-[94px] lg:text-[104px] lg:leading-[123.68px] xl:text-[144px] xl:leading-[163.68px] 2xl:text-[164px] 2xl:leading-[183.68px]
     }
 
     h2.heading-lg {
@@ -77,17 +77,11 @@
     }
 }
 
-.shopify-buy__option-select__label {
-    height: auto!important;
-    /* overflow: hidden; */
-    /* padding: 0; */
-    position: relative!important;
-    width: auto!important;
-}
 
-.shopify-buy-frame--product.shopify-buy__layout-horizontal iframe {
+/* .shopify-buy-frame--product.shopify-buy__layout-vertical iframe {
     margin-left: 0!important;
-}
+} */
+
 
 
 /* TODO Add development class to body, dependent on config('app.env') == local

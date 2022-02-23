@@ -1,23 +1,25 @@
 <?php include_once("partials/site/header.php"); ?>
 
-<section class="w-full md:h-screen relative">
-    <div class="w-full h-full">
-        <img class="hidden md:block -bottom-36 w-90% xl:w-80% 2xl:w-70% absolute-center-x md:top-20" src="assets/img/front-hero-circle.png" alt="">
+<section class="w-full relative">
+    <div class="w-full">
+        <img class="hidden md:block -bottom-36 w-90% xl:w-80% 2xl:w-70% md:pt-20 mx-auto" src="assets/img/front-hero-circle.png" alt="">
         <img class="md:hidden w-full translate-y-14" src="assets/img/front-hero-circle_crop.png" alt="">
     </div>
-    <div class="w-full absolute bottom-28 md:bottom-60 lg:bottom-40 xl:bottom-2 text-blue">
-        <div class="container">
-            <h1 class="hidden md:block heading-xl">Welcome to <span class="italic">Varva.</span><br>The circular answer<br><span class="italic">to soil health</span>.</h1>
-            <h1 class="block md:hidden heading-xl">Welcome<br>to <span class="italic">Varva,</span><br>the circular answer to <br><span class="italic">soil health</span>.</h1>
+    <div class="w-full h-screen absolute top-0">
+        <div class="w-full  absolute bottom-28 md:bottom-96 lg:bottom-40 xl:bottom-2 text-blue">
+            <div class="container">
+                <h1 class="hidden md:block heading-xl">Welcome to <span class="italic">Varva.</span><br>The circular answer<br><span class="italic">to soil health</span>.</h1>
+                <h1 class="block md:hidden heading-xl">Welcome<br>to <span class="italic">Varva,</span><br>the circular answer to <br><span class="italic">soil health</span>.</h1>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Account for hero img top offset -->
-<section class="pt-24 lg:pt-80 2xl:pt-[450px]">
+<section class="pt-24">
     <div class="container">
         <h4 class="uppercase font-bold">Mission</h4>
-        <h2 class="text-[38px] leading-[48px] md:heading-lg font-spectral font-light mt-6 md:mt-10">We’re on a mission to help farmers improve their soil health through regenerative practices, whilst putting great produce on people’s plates.<br>   <span class="italic">It’s going to be delicious.</span></h2>
+        <h2 class="text-[38px] leading-[48px] md:heading-lg font-spectral font-light mt-6 md:mt-10">We’re on a mission to help farmers improve their soil health through regenerative practices, whilst putting great produce on people’s plates.<br> <span class="italic">It’s going to be delicious.</span></h2>
     </div>
 </section>
 
@@ -49,64 +51,66 @@
 
 <section class="mt-20 md:mt-40">
     <div class="container">
-      <h4 class="uppercase font-bold">Our products</h4>
-      <div class="mt-10">
-          <div class="flex flex-col-reverse md:flex-row space-y-10 md:space-y-0 md:space-x-36">
-              <div class="">
-                  <h3 class="text-3xl md:text-6xl font-spectral font-light mobile:mt-10">Soil health as a Service</h3>
-                  <p class="text-xl md:text-3xl md:leading-10 font-light max-w-3xl md:pr-10 mt-5">Thriving soil is essential for the long term sustainability of agriculture. In our first product we reconnect cropping farmers and animal producers to create a more integrated regenerative system that is mutually beneficial to all.<br><br>We bring grazing animals to cropping farms, where they help close the circle by regenerating land with their hooves and mouths - as nature intended. This reduces the dependence on external inputs and builds healthy soils.</p>
-                  <a href="./methods" class="block mt-10">
+        <h4 class="uppercase font-bold">Our products</h4>
+        <div class="mt-10">
+            <div class="flex flex-col-reverse md:flex-row space-y-10 md:space-y-0 md:space-x-36">
+                <div class="">
+                    <h3 class="text-3xl md:text-6xl font-spectral font-light mobile:mt-10">Soil health as a Service</h3>
+                    <p class="text-xl md:text-3xl md:leading-10 font-light max-w-3xl md:pr-10 mt-5">Thriving soil is essential for the long term sustainability of agriculture. In our first product we reconnect cropping farmers and animal producers to create a more integrated regenerative system that is mutually beneficial to all.<br><br>We bring grazing animals to cropping farms, where they help close the circle by regenerating land with their hooves and mouths - as nature intended. This reduces the dependence on external inputs and builds healthy soils.</p>
+                    <a href="./methods" class="block mt-10">
                         <div class="button-rounded--blue">
                             <span>Find out more</span>
                             <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 11L24 11" stroke="currentColor" stroke-width="2"/>
-                                <path d="M17 2L25 11L17 20" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                                <path d="M0 11L24 11" stroke="currentColor" stroke-width="2" />
+                                <path d="M17 2L25 11L17 20" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
                             </svg>
                         </div>
                     </a>
-              </div>
-              <div class="w-75% md:w-auto mx-auto">
-                  <img class="object-cover" src="./assets/img/soil_health.jpg" alt="">
-              </div>
-          </div>
-          <div class="flex flex-col lg:flex-row space-y-14 lg:space-y-0 lg:space-x-36 mt-20 lg:mt-40 2xl:justify-center">
-              <div class="w-70% md:w-40% lg:w-auto max-w-sm flex flex-col md:flex-row md:space-x-10 lg:space-x-0 lg:flex-col items-center mobile:mx-auto">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 366.772 451.411">
-                      <path id="Egg" d="M366.772,253.633c0,109.231-82.1,197.778-183.386,197.778S0,362.864,0,253.633,82.1,0,183.386,0,366.772,144.4,366.772,253.633Z" fill="#e28d03"/>
-                  </svg>
-                  <div class="hidden md:block ">
-                      <svg class="mt-16" xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 283.648 124.449">
-                          <g id="animal_icons" data-name="animal icons" opacity="0.995">
-                            <g id="Group_4" data-name="Group 4" transform="translate(0 5.224)">
-                              <path id="Path_3" data-name="Path 3" d="M24.957,58.581C28.368,29.344,49.836,8.407,60.542,8.357,74.5,8.293,76.091,37.2,76.09,56.962c0,27.848,3.182,65.4-22.875,65.4C17.207,122.358,21.991,84.006,24.957,58.581Z" transform="translate(-22.944 -8.357)" fill="#a2c8f5"/>
-                              <path id="Path_4" data-name="Path 4" d="M147.32,58.581c-3.411-29.237-24.878-50.174-35.584-50.224C97.778,8.293,96.187,37.2,96.187,56.962c0,27.848-3.182,65.4,22.875,65.4C155.07,122.358,150.286,84.006,147.32,58.581Z" transform="translate(-36.271 -8.357)" fill="#a2c8f5"/>
+                </div>
+                <div class="w-75% md:w-auto mx-auto">
+                    <img class="object-cover" src="./assets/img/soil_health.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row space-y-14 lg:space-y-0 lg:space-x-36 2xl:justify-center mt-20 lg:mt-40 ">
+                <div class="w-70% md:w-40% lg:w-auto max-w-sm flex flex-col md:flex-row md:space-x-10 lg:space-x-0 lg:flex-col items-center mobile:mx-auto pt-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 366.772 451.411">
+                        <path id="Egg" d="M366.772,253.633c0,109.231-82.1,197.778-183.386,197.778S0,362.864,0,253.633,82.1,0,183.386,0,366.772,144.4,366.772,253.633Z" fill="#e28d03" />
+                    </svg>
+                    <div class="hidden md:block ">
+                        <svg class="mt-16" xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 283.648 124.449">
+                            <g id="animal_icons" data-name="animal icons" opacity="0.995">
+                                <g id="Group_4" data-name="Group 4" transform="translate(0 5.224)">
+                                    <path id="Path_3" data-name="Path 3" d="M24.957,58.581C28.368,29.344,49.836,8.407,60.542,8.357,74.5,8.293,76.091,37.2,76.09,56.962c0,27.848,3.182,65.4-22.875,65.4C17.207,122.358,21.991,84.006,24.957,58.581Z" transform="translate(-22.944 -8.357)" fill="#a2c8f5" />
+                                    <path id="Path_4" data-name="Path 4" d="M147.32,58.581c-3.411-29.237-24.878-50.174-35.584-50.224C97.778,8.293,96.187,37.2,96.187,56.962c0,27.848-3.182,65.4,22.875,65.4C155.07,122.358,150.286,84.006,147.32,58.581Z" transform="translate(-36.271 -8.357)" fill="#a2c8f5" />
+                                </g>
+                                <path id="Path_5" data-name="Path 5" d="M53.4,124.448h.253v0c29.4-.3,53.148-26.283,53.148-56.6C106.8,37.355,86.262,0,69.816,0c-8.8,0-9.4,15.427-9.957,29.771-.478,12.279-.924,23.766-6.457,24.1-5.533-.337-5.98-11.823-6.457-24.1C46.386,15.427,45.787,0,36.987,0,20.541,0,0,37.355,0,67.846c0,30.318,23.749,56.305,53.148,56.6v0Z" transform="translate(176.845)" fill="#a2c8f5" fill-rule="evenodd" />
                             </g>
-                            <path id="Path_5" data-name="Path 5" d="M53.4,124.448h.253v0c29.4-.3,53.148-26.283,53.148-56.6C106.8,37.355,86.262,0,69.816,0c-8.8,0-9.4,15.427-9.957,29.771-.478,12.279-.924,23.766-6.457,24.1-5.533-.337-5.98-11.823-6.457-24.1C46.386,15.427,45.787,0,36.987,0,20.541,0,0,37.355,0,67.846c0,30.318,23.749,56.305,53.148,56.6v0Z" transform="translate(176.845)" fill="#a2c8f5" fill-rule="evenodd"/>
-                          </g>
-                      </svg>
-                      <p class="text-md text-[#a2c8f5] mt-5">Mutton & Beef coming soon</p>
-                  </div>
-              </div>
-              <div>
-                  <h3 class="text-3xl md:text-6xl font-spectral font-light">Eggs from pastured laying hens</h3>
-                  <p class="text-xl md:text-3xl md:leading-10 font-light max-w-3xl md:pr-10 mt-5">
+                        </svg>
+                        <p class="text-md text-[#a2c8f5] mt-5">Mutton & Beef coming soon</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="uppercase font-bold">Our (by)products</h4>
+                    <h3 class="text-3xl md:text-6xl font-spectral font-light mt-10">Eggs from pastured laying hens</h3>
+                    <p class="text-xl md:text-3xl md:leading-10 font-light max-w-3xl md:pr-10 mt-5">
                         After the crops have been grazed, pastured hens add their benefits to the soil by reducing parasites and distributing manure. While our animals regenerate soil, they simultaneously generate nutrient dense food that we want to share with you.
                         <br><br>
                         As a start, we provide egg subscriptions from our hens on pasture. You subscribe to a hen for 30 eggs a month, and at the end of the season you can opt to receive your hen for a rich winter stew.
-                  </p>
-                  <a href="./products" class="block mt-10">
+                    </p>
+                    <a href="./products" class="block mt-10">
                         <div class="button-rounded--blue">
                             <span>Buy now</span>
                             <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 11L24 11" stroke="currentColor" stroke-width="2"/>
-                                <path d="M17 2L25 11L17 20" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                                <path d="M0 11L24 11" stroke="currentColor" stroke-width="2" />
+                                <path d="M17 2L25 11L17 20" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
                             </svg>
                         </div>
                     </a>
-              </div>
-          </div>
+                </div>
+            </div>
 
-      </div>
+        </div>
     </div>
 </section>
 
@@ -258,4 +262,3 @@
     </div>
 </section>
 -->
-
