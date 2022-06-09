@@ -5,11 +5,11 @@
 <section class="pt-32 md:pt-44">
     <div class="container">
         <h2 class="heading-lg font-spectral font-light mt-6 md:mt-10">Q&A</h2>
-        <p class="text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light max-w-4xl mt-10 md:mt-20">
-            Having a hard time getting a grip of what we do, and why? <br>We hear you. Below are some common questions and answers.
+        <p class="text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light max-w-4xl mt-10 md:mt-20" x-html="$t('q_a_desc')">
+            Svårt att få grepp om vad vi gör, och varför?<br>Vi hör dig. Nedan finns några vanliga frågor och svar.
         </p>
 
-        <p class="text-lg mt-10">Wondering something not answered? Feel free to reach out!</p>
+        <p class="text-lg mt-10" x-html="$t('q_a_wondering_something')">Undrar du något som inte är med? Hör gärna av dig!</p>
         <p class="text-lg underline mt-1"><a href="mailto:info@varva.co">info@varva.co</a></p>
 
     </div>
@@ -25,6 +25,10 @@
                     {
                         name: 'Our methods',
                         questions: [
+                            {
+                                q: 'If your main focus is soil health and food production is only secondary and a by-product of your main focus, is there not a risk that the produce will be of lower quality?',
+                                a: 'Actually, no. The quality of any produce is directly connected to the health of the land where it grows or lives. So by focusing on soil health and ecosystem restoration we are actually simultaneously focusing on improving the quality of our produce.'
+                            },
                             {
                                 q: 'How do the farmers sow in the new crop after the animals have grazed to minimize soil disturbance (not use a plow)?',
                                 a: 'There are several methods for doing this depending on what is important to the farmer. Some farmers choose to use herbicide after sowing to kill off the old crops, where other farmers prefer to mechanically disturb the upper parts of the soil to remove the old crop. In some parts of the world they use a roller crimper to flatten and kill-off the old crops without disturbing the soil or using herbicides, but our season in Sweden is too short for that method to be effective. We would like to test using our grazing animals as the tool for removing the old crops after sowing the new.'

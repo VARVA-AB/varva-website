@@ -39,6 +39,7 @@ module.exports = {
       center: true,
       padding: {
         'DEFAULT': '1.5rem',
+        'xl': '3.5rem',
         '2xl': '0rem',
       }
     },
@@ -51,9 +52,8 @@ module.exports = {
         'gray-5E' : '#5E5E5E',
         'dark-blue' : '#00000E',
         'yellow' : '#FFD600',
-        'blue': {
-          'DEFAULT': '#2867D3'
-        }
+        'beige': '#FFF9ED',
+        'blue': '#2867D3',
       },
       width: theme => ({
         "5%": "5%",
@@ -97,11 +97,11 @@ module.exports = {
           // '@screen lg': {
           //   maxWidth: '800px',
           // },
-          '@screen xl': {
-            maxWidth: '1280px',
-          },
+        //   '@screen xl': {
+        //     maxWidth: '1280px',
+        //   },
           '@screen 2xl': {
-            maxWidth: '1640px',
+            maxWidth: '1700px',
           },
           '@screen 3xl': {
             maxWidth: '1540px',

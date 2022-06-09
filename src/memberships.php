@@ -4,21 +4,19 @@
 <!-- Account for hero img top offset -->
 <section class="pt-32 md:pt-44 pb-20 md:pb-40" id="memberships">
     <div class="container">
-        <h4 class="uppercase font-bold">Memberships</h4>
-        <h2 class="heading-lg font-spectral font-light mt-6 md:mt-10">Become a member and start regenerating our soils!</h2>
-        <p class="text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light max-w-4xl mt-10 md:mt-20">
-            This spring we, among other things, are building:
-
+        <h4 class="uppercase font-bold" x-text="$t('memberships')">Medlemskap</h4>
+        <h2 class="heading-lg font-spectral font-light mt-6 md:mt-10" x-html="$t('become_a_member')">Bli medlem och börja återskapa våra jordar och ekosystem!</h2>
+        <p class="text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light max-w-4xl mt-10 md:mt-20" x-html="$t('this_spring')">
+            I vår bygger vi bland annat:
         </p>
-        <ul class="list-disc list-inside space-y-4 text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light pl-4 mt-8">
-                <li>2 egg mobiles for our 700 brown layer hens</li>
-                <li>A certified mobile egg packery</li>
-                <li>Fodder silos</li>
-                <li>Water waggons</li>
-                <li>A 140m2 greenhouse (in case of bird flu restrictions)</li>
-            </ul>
-        <p class="text-xl md:text-2xl font-light max-w-4xl mt-6 md:mt-8">
-            To manage these investments of 300,000SEK we ask you for a voluntary contribution of 200 SEK in the form of a lifetime membership fee. A membership gives you the right to vote for future by-products and influence the direction of our movement towards a more inspiring agriculture. It also gives you early-bird access to future by-products including egg subscriptions as well as opportunities to visit us and learn about our operations at specific dates communicated later in the season.
+        <ul class="list-disc list-inside space-y-4 text-xl md:text-2xl xl:text-3xl xl:leading-10 font-light pl-4 mt-8" x-html="$t('building_list')">
+            <li>2 mobila hönshus för våra 700 bruna värphöns.</li>
+            <li>Ett certifierat mobilt äggpackeri.</li>
+            <li>Fodersilos</li><li>Vattenvagnar</li>
+            <li>Ett växthus på 140 m2 (i händelse av restriktioner för fågelinfluensa).</li>
+        </ul>
+        <p class="text-xl md:text-2xl font-light max-w-4xl mt-6 md:mt-8" x-html="$t('investments')">
+            För att hantera dessa investeringar på runt 300 000 kronor ber vi dig om ett frivilligt bidrag på 200 kronor i form av ett stödjande medlemskap. Ett medlemskap ger dig rätt att rösta om framtida biprodukter och påverka riktningen för vår rörelse mot ett mer inspirerande jordbruk. Det ger dig också tidig tillgång till framtida (bi)produkter inklusive ägg-abonnemang samt möjligheter att besöka oss och lära dig mer om vår verksamhet och mission vid särskilda datum som meddelas senare under säsongen.
         </p>
 
     </div>
