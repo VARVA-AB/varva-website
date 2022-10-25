@@ -31,9 +31,7 @@
                         <p class="text-[16px] md:text-[18px] mt-2 max-w-xs">12 ägg, levererade till ditt valda utlämningsställe</p>
                         <p class="mt-4 text-[24px] font-semibold">72 kr</p>
                         <p class="mt-4 md:text-[18px] font-semibold text-[#3D3D3D]">6.00 kr/ägg</p>
-                        <!-- ägg 12 pack ADD TO CART -->
-                        <div id='product-component-1654711516938' class="mt-4"></div>
-                        </a>
+                        <p class="mt-14 md:text-[18px] font-semibold text-[#3D3D3D]">Slut för säsongen</p>
                     </div>
                     <div class="">
                         <p class="text-[24px] md:text-[36px] font-semibold">Foodie</p>
@@ -42,7 +40,7 @@
                         <p class="mt-4 text-[24px] font-semibold">150 kr</p>
                         <p class="mt-4 md:text-[18px] font-semibold text-[#3D3D3D]">5.00 kr/ägg</p>
                         <!-- ägg subscription ADD TO CART -->
-                        <div id='product-component-1654800463093' class="mt-4"></div>
+                        <p class="mt-14 md:text-[18px] font-semibold text-[#3D3D3D]">Slut för säsongen</p>
                     </div>
                     <div class="relative">
                         <div class="relative z-20">
@@ -86,8 +84,7 @@
                         <p class="text-[16px] md:text-[18px] mt-2 max-w-xs">An order of 12 eggs, delivered to your chosen pickup location</p>
                         <p class="mt-4 text-[24px] font-semibold"><span class="line-through text-[#9d9d9d] md:text-[21px]">72</span> 60 kr</p>
                         <p class="mt-4 md:text-[18px] font-semibold text-[#3D3D3D]">5.00 kr/egg</p>
-                        <!-- Egg 12 pack ADD TO CART -->
-                        <div id='product-component-1654801469393' class="mt-4"></div>
+                        <p class="mt-14 md:text-[18px] font-semibold text-[#3D3D3D]">Out of stock for the season</p>
                         </a>
                     </div>
                     <div class="">
@@ -96,7 +93,7 @@
                         <p class="text-[16px] md:text-[18px] mt-2 max-w-xs">30 eggs, delivered to your chosen pickup location</p>
                         <p class="mt-4 text-[24px] font-semibold"><span class="line-through text-[#9d9d9d] md:text-[21px]">150</span> 135 kr</p>
                         <p class="mt-4 md:text-[18px] font-semibold text-[#3D3D3D]">4.50 kr/egg</p>
-                        <div id='product-component-1654801274699' class="mt-4"></div>
+                        <p class="mt-14 md:text-[18px] font-semibold text-[#3D3D3D]">Out of stock for the season</p>
                     </div>
                     <div class="relative">
                         <div class="relative z-20">
@@ -444,10 +441,6 @@
 
 </div>
 
-<?php include_once("partials/shopify/product-12eggs.php"); ?>
-<?php include_once("partials/shopify/product-12eggs-en.php"); ?>
-<?php include_once("partials/shopify/product-30eggs.php"); ?>
-<?php include_once("partials/shopify/product-foodie-en.php"); ?>
 <?php include_once("partials/shopify/product-egg-subscription.php"); ?>
 <?php include_once("partials/shopify/product-egg-subscription-sv.php"); ?>
 <?php include_once("partials/shopify/product-kohona.php"); ?>
