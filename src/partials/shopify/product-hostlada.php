@@ -1,3 +1,4 @@
+
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -25,8 +26,8 @@
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '6786452291641',
-        node: document.getElementById('product-component-1654711516938'),
+        id: '6873713606713',
+        node: document.getElementById('product-component-1662106968150'),
         moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
         options: {
   "product": {
@@ -50,9 +51,6 @@
         "padding-top": "1.5rem",
         "padding-bottom": "1.5rem",
         "margin-bottom": "5px",
-        "box-sizing": "border-box",
-        "-moz-box-sizing": "border-box",
-        "-webkit-box-sizing": "border-box",
         ":hover": {
           "background-color": "#245dbe"
         },

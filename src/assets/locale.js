@@ -28,7 +28,9 @@ let messages = {
         find_out_more: 'Find out more',
         learn_more: 'Learn more',
         our_by_products: 'OUR (BY)PRODUCTS',
-        our_first_by_product: 'Our first (by) product',
+        our_by_product: 'Our (by) products',
+        egg: 'Egg',
+        eggs: 'Eggs',
         eggs_from: 'Eggs from pastured laying hens',
         eggs_from_desc: 'After the crops have been grazed, pastured hens add their benefits to the soil by reducing parasites and distributing manure. While our animals regenerate soil, they simultaneously generate nutrient dense food that we want to share with you.<br><br>As a start, we provide egg subscriptions from our hens on pasture. You subscribe to a hen for 30 eggs a month, and at the end of the season you can opt to receive your hen for a rich winter stew.',
         locally_produced_eggs: 'Locally produced eggs from our rotational<br>farming practices',
@@ -82,10 +84,14 @@ let messages = {
         building_list: '<li>2 egg mobiles for our 700 brown layer hens</li><li>A certified mobile egg packery</li><li>Fodder silos</li><li>Water waggons</li><li>A 140m2 greenhouse (in case of bird flu restrictions)</li>',
         investments: 'To manage these investments of 300,000SEK we ask you for a voluntary contribution of 200 SEK in the form of a VARVA supportive membership fee. A membership gives you early access and the right to vote for future (by)products as well as influence the direction of our movement towards a more inspiring agriculture. It also gives you early-bird access to future by-products including egg subscriptions as well as opportunities to visit us and learn about our operations at specific dates communicated later in the season.',
         error_404: 'Sorry, we couldn’t find that!',
-        error_prompt: 'Try the menu or go <a href="/" class="underline">home</a>'
-
+        error_prompt: 'Try the menu or go <a href="/" class="underline">home</a>',
+        meat_box: 'Meat box',
+        from_our_grazing_sheep: 'From our grazing sheep in the fields of Påarp.',
+        kokhona: 'Cooking hen',
+        buy_season_hen: 'Buy one of the seasons hens',
+        how_many_eggs_per_month: 'How many eggs do you want each month?',
+        pack_each_month: 'packs each month',
 	},
-
 
 
 
@@ -101,7 +107,9 @@ let messages = {
         find_out_more: 'Läs mer',
         learn_more: 'Läs mer',
         our_by_products: 'Våra (Bi) Produkter',
-        our_first_by_product: 'Vår första (bi) produkt',
+        our_by_product: 'Våra (bi) produkter',
+        egg: 'Ägg',
+        eggs: 'Ägg',
         eggs_from: 'Ägg från grönbeteshöns',
         eggs_from_desc: 'Efter att fåren betat ett område fortsätter våra grönbeteshöns med arbetet där de bidrar med att minska parasiter, sprida fårspillningen, och tillföra ytterligare näring. Medan våra djur regenererar jorden genererar de samtidigt näringsrika livsmedel som vi vill dela med oss av till dig.<br><br>Som första (bi)produkt erbjuder vi äggabonnemang från våra värphöns på bete. Du prenumererar på en höna för 30 ägg i månaden, och i slutet av säsongen kan du välja att ta emot din höna för en mustig vintergryta.',
         locally_produced_eggs: 'Lokalt producerade ägg från våra grönbetshöns',
@@ -155,9 +163,13 @@ let messages = {
         building_list: '<li>2 mobila hönshus för våra 700 bruna värphöns.</li><li>Ett certifierat mobilt äggpackeri.</li><li>Fodersilos</li><li>Vattenvagnar</li><li>Ett växthus på 140 m2 (i händelse av restriktioner för fågelinfluensa).</li>',
         investments: 'För att hantera dessa investeringar på runt 300 000 kronor ber vi dig om ett frivilligt bidrag på 200 kronor i form av ett stödjande medlemskap. Ett medlemskap ger dig rätt att rösta om framtida biprodukter och påverka riktningen för vår rörelse mot ett mer inspirerande jordbruk. Det ger dig också tidig tillgång till framtida (bi)produkter inklusive ägg-abonnemang samt möjligheter att besöka oss och lära dig mer om vår verksamhet och mission vid särskilda datum som meddelas senare under säsongen.',
         error_404: 'Tyvärr, vi kunde inte hitta det där!',
-        error_prompt: 'Försök med menyn, eller gå tillbaka till <a href="/" class="underline">start</a>'
-
-
+        error_prompt: 'Försök med menyn, eller gå tillbaka till <a href="/" class="underline">start</a>',
+        meat_box: 'Köttlåda',
+        from_our_grazing_sheep: 'Från våra betande får på fälten i Påarp.',
+        kokhona: 'Kokhöna',
+        buy_season_hen: 'Köp en av säsongens hönor',
+        how_many_eggs_per_month: 'Hur många ägg vill du ha varje månad?',
+        pack_each_month: 'pack varje månad',
 	},
 };
 

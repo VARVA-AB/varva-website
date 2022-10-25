@@ -49,23 +49,47 @@
 
 <section class="mt-20 md:mt-40 mb-32 md:mb-52">
     <div class="container">
-        <h2 class="hidden md:block text-[38px] leading-[48px] md:heading-lg font-spectral font-light"><span x-html="$t('our_first_by_product')">Vår första (bi) produkt</h2>
-        <h2 class="block md:hidden text-[38px] leading-[48px] md:heading-lg font-spectral font-light" x-html="$t('our_first_by_product')"></h2>
-        <div class="flex flex-col lg:flex-row mt-8 md:mt-12">
-            <div class="order-2 lg:order-1 lg:w-40% pt-6 lg:p-0">
-                <p class="text-[24px] md:text-[36px]" x-html="$t('eggs_from')">Äggabonnemang</p>
-                <p class="md:text-[24px] mt-4" x-html="$t('locally_produced_eggs')">Lokalt producerade ägg från våra grönbetshöns</p>
+        <h2 class="hidden md:block text-[38px] leading-[48px] md:heading-lg font-spectral font-light"><span x-html="$t('our_by_product')">Våra (bi) produkter</h2>
+        <h2 class="block md:hidden text-[38px] leading-[48px] md:heading-lg font-spectral font-light" x-html="$t('our_by_product')"></h2>
+
+
+        <div class="grid md:grid-cols-3 gap-32 sm:gap-10 2xl:gap-40 mt-8 md:mt-12">
+            <div class="">
+                <img class="w-full h-[180px] xl:h-[280px] object-cover" src="./assets/img/egg_sandwich.png" alt="">
+                <p class="text-[24px] md:text-[36px] mt-8" x-html="$t('eggs_from')">Grönbetesägg</p>
+                <p class="md:text-[24px] mt-4 pr-4" x-html="$t('locally_produced_eggs')">Lokalt producerade ägg från våra grönbetshöns</p>
                 <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
                 <a href="./products" class="block mt-10">
                     <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
-                        <span  x-text="$t('view_alternatives')">View subscriptions</span>
+                        <span  x-text="$t('view_alternatives')">View options</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="">
+                <img class="h-[180px] xl:h-[280px] object-cover mx-auto" src="./assets/img/hen_icon.png" alt="">
+                <p class="text-[24px] md:text-[36px] mt-8" x-text="$t('kokhona')">Kokhöna</p>
+                <p class="md:text-[24px] mt-4 pr-4" x-text="$t('buy_season_hen')">Från våra betande får på fälten i Påarp.</p>
+                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
+                <a href="./products#kokhona" class="block mt-10">
+                    <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
+                        <span  x-text="$t('view_alternatives')">View options</span>
                     </div>
                 </a>
             </div>
-            <div class="order-1 lg:order-2 lg:w-60%">
-                <img class="w-full object-cover" src="./assets/img/egg_sandwich.png" alt="">
+            <div class="">
+                <img class="mx-auto h-[180px] xl:h-[280px] object-cover" src="./assets/img/sheep2.png" alt="">
+                <p class="text-[24px] md:text-[36px] mt-8" x-text="$t('meat_box')" >Köttlåda</p>
+                <p class="md:text-[24px] mt-4 pr-4" x-text="$t('from_our_grazing_sheep')">Från våra betande får på fälten i Påarp. </p>
+                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
+                <a href="./products#farkott" class="block mt-10">
+                    <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
+                        <span  x-text="$t('view_alternatives')">View options</span>
+                    </div>
+                </a>
             </div>
         </div>
+
     </div>
 </section>
 

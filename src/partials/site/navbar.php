@@ -59,12 +59,12 @@
                 <a href="mailto:info@varva.co">info@varva.co</a>
             </p>
         </div>
-        <div class="absolute bottom-10 right-10 md:right-36 text-white">
+        <div class="absolute bottom-32 md:bottom-10 right-10 md:right-36 text-white">
             <template x-if="$locale() == 'sv'">
-                <button x-on:click="lang = 'en',$locale('en'), toggle()" class="underline">EN</button>
+                <button x-on:click="lang = 'en', $locale('en'), toggle(), $dispatch('langchange');" class="underline">EN</button>
             </template>
             <template x-if="$locale() == 'en'">
-                <button x-on:click="lang = 'sv', $locale('sv'), toggle();" class="underline">SV</button>
+                <button x-on:click="lang = 'sv', $locale('sv'), toggle(), $dispatch('langchange');" class="underline">SV</button>
             </template>
         </div>
     </div>

@@ -88,7 +88,7 @@
 
 
 /* TODO Add development class to body, dependent on config('app.env') == local
-    and change  body::after to body.development::after*/
+    and change  body::after to body.development::after
 
 
 
@@ -148,3 +148,5 @@ body::after {
         content: '3xl'
     }
 }
+
+*/
