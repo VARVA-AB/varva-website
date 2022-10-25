@@ -58,7 +58,7 @@
                 <img class="w-full h-[180px] xl:h-[280px] object-cover" src="./assets/img/egg_sandwich.png" alt="">
                 <p class="text-[24px] md:text-[36px] mt-8" x-html="$t('eggs_from')">Grönbetesägg</p>
                 <p class="md:text-[24px] mt-4 pr-4" x-html="$t('locally_produced_eggs')">Lokalt producerade ägg från våra grönbetshöns</p>
-                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
+                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö</p>
                 <a href="./products" class="block mt-10">
                     <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
                         <span  x-text="$t('view_alternatives')">View options</span>
@@ -70,7 +70,7 @@
                 <img class="h-[180px] xl:h-[280px] object-cover mx-auto" src="./assets/img/hen_icon.png" alt="">
                 <p class="text-[24px] md:text-[36px] mt-8" x-text="$t('kokhona')">Kokhöna</p>
                 <p class="md:text-[24px] mt-4 pr-4" x-text="$t('buy_season_hen')">Från våra betande får på fälten i Påarp.</p>
-                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
+                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö</p>
                 <a href="./products#kokhona" class="block mt-10">
                     <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
                         <span  x-text="$t('view_alternatives')">View options</span>
@@ -81,7 +81,7 @@
                 <img class="mx-auto h-[180px] xl:h-[280px] object-cover" src="./assets/img/sheep2.png" alt="">
                 <p class="text-[24px] md:text-[36px] mt-8" x-text="$t('meat_box')" >Köttlåda</p>
                 <p class="md:text-[24px] mt-4 pr-4" x-text="$t('from_our_grazing_sheep')">Från våra betande får på fälten i Påarp. </p>
-                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö & Påarp</p>
+                <p class="text-[14px] md:text-[18px] mt-4" x-text="$t('pickup_locations')">Pick up locations in Malmö</p>
                 <a href="./products#farkott" class="block mt-10">
                     <div class="bg-blue rounded-full max-w-xs uppercase text-white text-center text-lg md:text-xl px-8 py-5 md:px-12 md:py-7 transition ease-in-out duration-100 hover:bg-transparent border-2 border-blue hover:text-blue">
                         <span  x-text="$t('view_alternatives')">View options</span>
